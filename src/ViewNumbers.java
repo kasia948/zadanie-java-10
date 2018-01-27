@@ -5,7 +5,7 @@ public class ViewNumbers {
         double z = 0.1;
 
         while (i <= 3) {
-            System.out.println(i);
+            System.out.printf(" %.2f",i);
             i = i + z;
         }
 
@@ -13,7 +13,7 @@ public class ViewNumbers {
         double b = 0.1;
 
         do {
-            System.out.println(a);
+            System.out.printf(" %.2f", a);
             a = a + b;
         } while (a <= 3);
     }
